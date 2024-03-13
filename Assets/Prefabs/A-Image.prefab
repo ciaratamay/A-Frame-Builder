@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5887136666940372701}
   - component: {fileID: 8560001211614596014}
   - component: {fileID: 916424545300896401}
+  - component: {fileID: 7094877266241813370}
   m_Layer: 0
   m_Name: A-Image
   m_TagString: Untagged
@@ -53,6 +54,9 @@ MonoBehaviour:
   o_id: 
   o_class: 
   o_src: 
+  opentag: <a-image
+  closetag: '></a-image>'
+  radius: 0
 --- !u!222 &8560001211614596014
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -113,3 +117,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7094877266241813370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813610995356555368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea639b29f3ffd514f9b7c7fefd1763a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateImage: 0
