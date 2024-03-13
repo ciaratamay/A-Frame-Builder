@@ -273,63 +273,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfa6fe9c3c1e15a4aa3a95ac01b1c885, type: 3}
---- !u!1 &1516877542
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1516877544}
-  - component: {fileID: 1516877543}
-  m_Layer: 0
-  m_Name: HTML Builder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1516877543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1516877542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bef1154ce5c03b84bb2a46c4ce80f3cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GenerateHTML: 0
-  htmltags:
-  - <!DOCTYPE html><html><head><title>Title</title>
-  - </head><body>
-  - <a-scene>
-  - </a-scene>
-  - </body></html>
-  libraries:
-  - https://aframe.io/releases/1.5.0/aframe.min.js
-  libprefix: <script src="
-  libsuffix: '"></script>'
-  punct: '"'
-  imgExtension: .png
---- !u!4 &1516877544
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1516877542}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.23444653, y: 1.3094559, z: -0.68216085}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1592588902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -613,6 +556,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfa6fe9c3c1e15a4aa3a95ac01b1c885, type: 3}
+--- !u!1001 &4290077099987225964
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 642163034423966290, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_Name
+      value: HTML Builder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.23444653
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3094559
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.68216085
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949464203533792440, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1689c2d0bc80d3747af7b0ab30e24ea6, type: 3}
 --- !u!1001 &6110043050033189671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -867,7 +867,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1516877544}
+  - {fileID: 4290077099987225964}
   - {fileID: 6110043050033189671}
   - {fileID: 2227354480550045665}
   - {fileID: 1907080919}
